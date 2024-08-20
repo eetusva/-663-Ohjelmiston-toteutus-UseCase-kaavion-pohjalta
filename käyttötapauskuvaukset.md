@@ -1,24 +1,29 @@
-Selaa äänestyksiä
+1. Selaa äänestyksiä
 
-Kuvaus: Äänestäjä ja Admini voivat selata olemassa olevia äänestyksiä. Tämä käyttöliittymätoiminto näyttää listan kaikista käynnissä olevista ja menneistä äänestyksistä, joihin käyttäjä voi osallistua tai tarkastella.
-Osallistuvat roolit: Äänestäjä, Admini
-Valitse äänestys
+Kuvaus: Äänestäjä ja Admin voivat selata olemassa olevia äänestyksiä. Tämä käyttöliittymä näyttää listan kaikista käynnissä olevista äänestyksistä, joihin käyttäjä voi osallistua äänestämällä, tai vain tarkastella niitä.
+Roolit: Äänestäjä, Admini
 
-Kuvaus: Käyttäjä (äänestäjä tai admini) valitsee tietyn äänestyksen selaamastaan listasta. Tämän jälkeen käyttäjä voi joko äänestää, tarkastella äänestyksen tilannetta, tai (adminin tapauksessa) poistaa äänestyksen.
-Osallistuvat roolit: Äänestäjä, Admini
-Äänestä
+2. Valitse äänestys
 
-Kuvaus: Äänestäjä voi antaa oman äänensä valitsemassaan äänestyksessä. Tämä käyttöliittymätoiminto on käytettävissä, kun äänestäjä on valinnut äänestyksen.
-Osallistuvat roolit: Äänestäjä
-Katso äänestyksen tilanne
+Kuvaus: Käyttäjä valitsee tietyn äänestyksen listalta. Tämän jälkeen käyttäjä voi joko äänestää, tai tarkastella äänestyksen tilannetta.
+Roolit: Äänestäjä, Admini
 
-Kuvaus: Käyttäjä voi tarkastella valitsemansa äänestyksen nykyistä tilannetta, esimerkiksi kuinka monta ääntä on annettu ja mitä vaihtoehtoja on johdolla.
-Osallistuvat roolit: Äänestäjä, Admini
-Luo äänestyksiä
+3. Äänestä
 
-Kuvaus: Admini voi luoda uuden äänestyksen, määrittäen esimerkiksi kysymyksen, vastausvaihtoehdot ja aikarajan.
-Osallistuvat roolit: Admini
-Poista äänestyksiä
+Kuvaus: Äänestäjä voi antaa oman äänensä valitsemassaan äänestyksessä. Tämän voi suorittaa, kun käyttäjä on valinnut äänestyksen.
+Roolit: Äänestäjä
 
-Kuvaus: Admini voi poistaa olemassa olevan äänestyksen. Tämä voi olla tarpeen esimerkiksi, jos äänestyksessä havaitaan virhe tai se ei ole enää relevantti.
-Osallistuvat roolit: Admini
+4. Katso äänestyksen tilanne
+
+Kuvaus: Käyttäjä voi tarkastella valitsemansa äänestyksen nykyistä tilannetta, esimerkiksi kuinka monta ääntä on annettu ja mikä vaihtoehdoista johtaa.
+Roolit: Äänestäjä, Admini
+
+5. Luo äänestyksiä
+
+Kuvaus: Admini voi luoda uuden äänestyksen, määrittäen äänestyksen nimen, kysymyksen ja vastausvaihtoehdot. Tämä tapahtuu erillisestä admin-paneelista, jonne admin kirjautuu tunnuksilla. (käyttäjä: testi   salasana: testi)
+Roolit: Admini
+
+6. Poista äänestyksiä
+
+Kuvaus: Admini voi poistaa olemassa olevan äänestyksen. Tämä tapahtuu erillisestä admin-paneelista, jonne admin kirjautuu tunnuksilla.
+Roolit: Admini
